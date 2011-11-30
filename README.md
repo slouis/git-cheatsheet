@@ -12,6 +12,8 @@
 
 ## SUPPRESSION DE L'HISTORIQUE D'UN FICHIER `zzz` :
 
+Lien : http://help.github.com/remove-sensitive-data/ :
+
     git filter-branch --index-filter 'git rm --cached --ignore-unmatch zzz' HEAD
     git push github master --force
 
