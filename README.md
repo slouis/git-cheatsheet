@@ -10,6 +10,9 @@
     git remote add origin git@github.com:slouis/git-cheatsheet.git
     git push -u origin master
 
+## AJOUT DES COULEURS
+    git config color.ui true
+
 ## SUPPRESSION DE L'HISTORIQUE D'UN FICHIER `zzz` :
 
 Lien : http://help.github.com/remove-sensitive-data/ :
